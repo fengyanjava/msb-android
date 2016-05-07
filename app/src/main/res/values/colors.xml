@@ -1,0 +1,94 @@
+<resources>
+    
+    <color name="app_color">#fff75449</color>
+    <color name="app_color_pressed">#88f75449</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="page_bg_gray">#ededed</color>
+    
+    <color name="line_gray">#e6e6e6</color>
+    <color name="item_gray_pressed">#f0f0f0</color>
+    
+    <color name="btn_pink_text_normal">@color/app_color</color>
+    <color name="btn_pink_text_pressed">#ffffff</color>
+    
+    <color name="btn_white_text_normal">#ffffff</color>
+    <color name="btn_white_text_pressed">@color/app_color</color>
+    
+    <color name="common_item_text_color">#000000</color>
+
+    <!-- tab bar -->
+    <color name="tab_bar_text_normal">#7c7c7c</color>
+    <color name="tab_bar_text_selected">@color/app_color</color>
+    
+    <!-- title bar -->
+    <color name="title_bar_bg_normal">@color/transparent</color>
+    <color name="title_bar_bg_pressed">#33000000</color>
+    <color name="title_bar_text">#ffffff</color>
+    
+    <!-- title bar tab -->
+    <color name="title_bar_tab_text_normal">#dc4c42</color>
+    <color name="title_bar_tab_text_selected">@android:color/white</color>
+    
+    <!-- question item -->
+    <color name="question_item_bg_normal">#ffffff</color>
+    <color name="question_item_bg_pressed">#f0f0f0</color>
+    <color name="question_item_category_text">#676767</color>
+    <color name="question_item_time">#b6b6b6</color>
+    <color name="question_item_description">#000000</color>
+    
+    <!-- action bar -->
+    <color name="action_bar_text_color">#999999</color>
+    <color name="action_bar_text_color_high_light">@color/app_color</color>
+    <color name="action_bar_bg_pressed">@color/question_item_bg_pressed</color>
+    <color name="post_action_bar_text_color">#333333</color>
+    
+    <!-- detail -->
+    <color name="answer_text_color">#000000</color>
+    <color name="tag_text_color">#3e6d8e</color>
+    <color name="detail_action_bar_bg_pressed">#eeeeee</color>
+    
+    <!-- favorite -->
+    <color name="favorite_folder_name">#000000</color>
+    <color name="favorite_folder_question_desc">#888888</color>
+    <color name="favorite_folder_question_count">#6d6e6e</color>
+    <color name="favorite_detail_folder_intro">#888888</color>
+    
+    <!-- me -->
+    <color name="me_score_text_color">#888888</color>
+    
+    <!-- login/register -->
+    <color name="login_input_text_color">#000000</color>
+    <color name="login_input_text_color_hint">#a3a3a3</color>
+    
+    <!-- dialog -->
+    <color name="dialog_bg">#f8f8f8</color>
+    <color name="dialog_separator_line">#bbbbbb</color>
+    <color name="dialog_button_pressed">#d9d9d9</color>
+    <color name="dialog_title_bg">@color/app_color</color>
+    <color name="dialog_title_text_color">#ffffff</color>
+    <color name="dialog_button_text_color">@color/app_color</color>
+    
+    <!-- user info -->
+    <color name="user_info_label_text_color">#888888</color>
+    <color name="user_info_value_text_color">#000000</color>
+    <color name="user_info_value_text_color_hint">#a3a3a3</color>
+    <color name="edit_info_hint">#888888</color>
+    
+    <!-- settings -->
+    <color name="settings_item_value">#888888</color>
+    
+    <!-- search -->
+    <color name="search_bar_bg">#f9f9f9</color>
+    
+    <!-- share dialog -->
+    <color name="share_dialog_bg">#e7e7e7</color>
+    <color name="share_dialog_text_color">#939393</color>
+    
+    <!-- page view -->
+    <color name="page_view_text_color">#b5b5b5</color>
+    
+    <!-- progress dialog -->
+    <color name="progress_dialog_bg_color">#A5000000</color>
+    <color name="progress_dialog_text_color">@android:color/white</color>
+
+</resources>

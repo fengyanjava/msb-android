@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:orientation="vertical" >
+
+    <com.mianshibang.main.widget.TitleBar
+        android:id="@+id/title_bar"
+        style="@style/TitleBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/view_nickname"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_nickname" />
+
+                    <TextView
+                        android:id="@+id/nickname"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_nickname" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_gender"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_gender" />
+
+                    <TextView
+                        android:id="@+id/gender"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_gender" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_perfession"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_perfession" />
+
+                    <TextView
+                        android:id="@+id/perfession"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_perfession" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_intro"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_intro" />
+
+                    <TextView
+                        android:id="@+id/intro"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_intro" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/me_group"
+                android:layout_marginBottom="@dimen/category_item_space" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/view_location"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_location" />
+
+                    <TextView
+                        android:id="@+id/location"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_location" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_birthday"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_birthday" />
+
+                    <TextView
+                        android:id="@+id/birthday"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_birthday" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_weibo"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_weibo" />
+
+                    <TextView
+                        android:id="@+id/weibo"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_weibo" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_blog"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_blog" />
+
+                    <TextView
+                        android:id="@+id/blog"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_blog" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <LinearLayout
+                    android:id="@+id/view_qq"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        style="@style/user_info_label"
+                        android:text="@string/user_info_label_qq" />
+
+                    <TextView
+                        android:id="@+id/qq"
+                        style="@style/user_info_value"
+                        android:hint="@string/user_info_hint_qq" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

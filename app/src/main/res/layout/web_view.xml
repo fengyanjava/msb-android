@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:orientation="vertical" >
+
+    <com.mianshibang.main.widget.TitleBar
+        android:id="@+id/title_bar"
+        style="@style/TitleBar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:minHeight="2dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_horizontal" />
+    </FrameLayout>
+
+</LinearLayout>

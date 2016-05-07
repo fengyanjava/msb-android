@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- commons -->
+    <dimen name="common_item_height">50dp</dimen>
+    <dimen name="common_item_text_size">16sp</dimen>
+
+    <!-- tab bar -->
+    <dimen name="tab_bar_height">56dp</dimen>
+    <dimen name="tab_bar_text_size">10sp</dimen>
+
+    <!-- title bar -->
+    <dimen name="title_bar_text_size">19sp</dimen>
+    <dimen name="title_bar_height">50dp</dimen>
+    <dimen name="title_bar_tab_text">15sp</dimen>
+
+    <!-- line -->
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="line_width">0.5dp</dimen>
+
+    <!-- question -->
+    <dimen name="question_item_padding_v">10dp</dimen>
+    <dimen name="question_item_padding_inner">10dp</dimen>
+    <dimen name="question_item_category_icon_size">32dp</dimen>
+    <dimen name="question_item_category_text_size">14sp</dimen>
+    <dimen name="question_item_time_size">9sp</dimen>
+    <dimen name="question_item_description_size">15sp</dimen>
+    <dimen name="question_element_margin">7dp</dimen>
+
+    <!-- action bar -->
+    <dimen name="action_bar_height">35dp</dimen>
+    <dimen name="action_bar_drawable_padding">6dp</dimen>
+    <dimen name="action_bar_text_size">11sp</dimen>
+
+    <!-- detail action bar -->
+    <dimen name="detail_action_bar_text_size">15sp</dimen>
+    <dimen name="detail_action_bar_height">50dp</dimen>
+
+    <!-- post action bar -->
+    <dimen name="post_action_bar_height">35dp</dimen>
+    <dimen name="post_action_bar_drawable_padding">6dp</dimen>
+    <dimen name="post_action_bar_text_size">14sp</dimen>
+
+    <!-- post detail action bar -->
+    <dimen name="post_detail_action_bar_text_size">16sp</dimen>
+    <dimen name="post_detail_action_bar_height">50dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_padding_size">10dp</dimen>
+    <dimen name="answer_text_size">15sp</dimen>
+    <dimen name="tag_text_size">12sp</dimen>
+    <dimen name="tag_padding">8dp</dimen>
+    <dimen name="tag_horizontal_spacing">8dp</dimen>
+    <dimen name="tag_vertical_spacing">8dp</dimen>
+
+    <!-- category -->
+    <dimen name="category_item_space">17.5dp</dimen>
+    <dimen name="category_item_padding">16dp</dimen>
+    <dimen name="category_item_height">50dp</dimen>
+    <dimen name="category_item_icon_size">32.5dp</dimen>
+    <dimen name="category_item_text_size">16sp</dimen>
+    <dimen name="category_item_line_margin">64.5dp</dimen>
+
+    <!-- favorite -->
+    <dimen name="favorite_folder_text_size">16sp</dimen>
+    <dimen name="favorite_folder_name_padding">12dp</dimen>
+    <dimen name="favorite_folder_question_text_size">14dp</dimen>
+    <dimen name="favorite_detail_header_padding">10dp</dimen>
+    <dimen name="favorite_detail_intro_text_size">14dp</dimen>
+
+    <!-- me -->
+    <dimen name="me_score_text_size">12sp</dimen>
+    <dimen name="me_avatar_size">40dp</dimen>
+    <dimen name="me_item_height_profile">65dp</dimen>
+
+    <!-- login/register -->
+    <dimen name="login_logo_margin_top">55dp</dimen>
+    <dimen name="login_logo_margin_bottom">25dp</dimen>
+    <dimen name="login_input_height">50dp</dimen>
+    <dimen name="login_input_drawable_padding">20dp</dimen>
+    <dimen name="login_input_text_size">17sp</dimen>
+    <dimen name="login_button_text_size">17sp</dimen>
+    <dimen name="login_button_radius">3dp</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_padding_horizontal">30dp</dimen>
+    <dimen name="dialog_padding_vertical">80dp</dimen>
+    <dimen name="dialog_title_height">@dimen/title_bar_height</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_separator_line">1dp</dimen>
+    <dimen name="dialog_button_text_size">17sp</dimen>
+
+    <!-- user info -->
+    <dimen name="user_info_item_padding">50dp</dimen>
+    <dimen name="user_info_text_size">16sp</dimen>
+
+    <!-- settings -->
+    <dimen name="settings_item_value_size">14sp</dimen>
+
+    <!-- new version dialog -->
+    <dimen name="dialog_new_version_text">17sp</dimen>
+    
+    <!-- alert dialog -->
+    <dimen name="dialog_alert_title_size">19sp</dimen>
+    <dimen name="dialog_alert_text_size">17sp</dimen>
+
+</resources>

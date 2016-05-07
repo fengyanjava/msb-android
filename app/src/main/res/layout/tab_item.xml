@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tab_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="2dp"
+        android:drawableTop="@drawable/tab_home_selected"
+        android:gravity="center"
+        android:textColor="@drawable/color_tab_bar_text"
+        android:text="@string/tab_home"
+        android:textSize="@dimen/tab_bar_text_size" >
+    </TextView>
+
+</FrameLayout>

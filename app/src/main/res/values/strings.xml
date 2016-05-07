@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">面试帮</string>
+    
+    <!-- error -->
+    <string name="network_error">网络不给力</string>
+    <string name="back_press_exit">再按一次返回键退出面试帮</string>
+    
+    <!-- commons -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="tip">提示</string>
+    <string name="save">保存</string>
+    <string name="unsave">不保存</string>
+    
+    <!-- question action bar -->
+    <string name="like">赞</string>
+    <string name="favorite">收藏</string>
+    <string name="more">更多</string>
+    
+    <!-- tab host -->
+    <string name="tab_home">首页</string>
+    <string name="tab_category">分类</string>
+    <string name="tab_favorite">收藏</string>
+    <string name="tab_me">我</string>
+    
+    <!-- home -->
+    <string name="home_tab_recommendation">精选</string>
+    <string name="home_tab_newest">最新</string>
+    
+    <!-- category -->
+    <string name="category">分类</string>
+    
+    <!-- detail -->
+    <string name="detail_title">详情</string>
+    <string name="detail_thinking_hint">先思考一下，再看答案</string>
+    <string name="detail_see_answer">查看答案</string>
+    <string name="detail_reference_answer">参考答案</string>
+    
+    <!-- favorite -->
+    <string name="favorite_detail_title">收藏夹</string>
+    <string name="select_favorite_folder">选择收藏夹</string>
+    <string name="create_favorite_folder">新建收藏夹</string>
+    <string name="edit_favorite_folder">编辑收藏夹</string>
+    <string name="delete_favorite_folder">删除收藏夹</string>
+    <string name="delete_favorite_folder_hint">收藏夹删除后，收藏夹中的内容将会全部清空</string>
+    <string name="favorite_unlogin_hint">登录后才能看到你的收藏</string>
+    <string name="favorite_go_login">现在登录</string>
+    
+    <string-array name="favorite_folder_option">
+        <item>@string/edit_favorite_folder</item>
+        <item>@string/delete_favorite_folder</item>
+    </string-array>
+    
+    <!-- me -->
+    <string name="me">我</string>
+    <string name="me_nickname_default">登录/注册</string>
+    <string name="me_score_unlogin">登录后体验更多功能</string>
+    <string name="me_score_default">上传面试题后可获得积分喔^_^</string>
+    <string name="me_score">积分：%1$d</string>
+    <string name="me_have_liked">我赞过的</string>
+    <string name="me_post_list">我上传的</string>
+    <string name="me_have_download">已下载的</string>
+    <string name="me_browse_history">浏览历史</string>
+    <string name="me_post">面试题上传</string>
+    
+    <!-- settings -->
+    <string name="setting">设置</string>
+    
+    <!-- login/register -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="login_account_hint">邮箱/昵称</string>
+    <string name="login_password_hint">密码</string>
+    <string name="register_nickname_hint">昵称</string>
+    <string name="register_email_hint">邮箱</string>
+    <string name="register_password_hint">密码</string>
+    <string name="register_account">注册帐号</string>
+    <string name="register_have_account">已有帐号，去登录</string>
+    
+    <!-- login field empty hint -->
+    <string name="login_account_empty">邮箱/昵称不能为空</string>
+    <string name="login_password_empty">密码不能为空</string>
+    
+    <!-- register field empty hint -->
+    <string name="register_nickname_empty">昵称不能为空</string>
+    <string name="register_email_empty">邮箱不能为空</string>
+    <string name="register_password_empty">密码不能为空</string>
+    
+    <!-- create favorite folder -->
+    <string name="create_folder_name_hint">名称（必填，2&#8211;30个字符）</string>
+    <string name="create_folder_intro_hint">简介（选填，0&#8211;60个字符）</string>
+    <string name="create_folder_name_empty">收藏夹名称不能为空</string>
+    
+    <!-- user info -->
+    <string name="user_info_title">编辑个人资料</string>
+    <string name="user_info_save_hint">是否要保存修改内容？</string>
+    
+    <string name="user_info_label_nickname">昵称</string>
+    <string name="user_info_label_gender">性别</string>
+    <string name="user_info_label_perfession">职业</string>
+    <string name="user_info_label_intro">简介</string>
+    <string name="user_info_label_location">所在地</string>
+    <string name="user_info_label_birthday">生日</string>
+    <string name="user_info_label_weibo">微博</string>
+    <string name="user_info_label_blog">博客</string>
+    <string name="user_info_label_qq">QQ</string>
+    
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="gender_secret">保密</string>
+    <string name="select_city_title">选择城市</string>
+    
+    <!-- user info hint -->
+    <string name="user_info_hint_nickname">点击设置昵称</string>
+    <string name="user_info_hint_gender">点击设置性别</string>
+    <string name="user_info_hint_perfession">点击设置职业</string>
+    <string name="user_info_hint_intro">点击设置简介</string>
+    <string name="user_info_hint_location">点击设置所在地</string>
+    <string name="user_info_hint_birthday">点击设置生日</string>
+    <string name="user_info_hint_weibo">点击设置微博</string>
+    <string name="user_info_hint_blog">点击设置博客</string>
+    <string name="user_info_hint_qq">点击设置QQ</string>
+    
+    <!-- edit user info -->
+    <string name="eidt_user_info_hint_nickname">2&#8211;20个字符，支持中英文、数字</string>
+    <string name="eidt_user_info_hint_perfession">例如：iOS高级工程师</string>
+    <string name="eidt_user_info_hint_intro">请不要超过100个字</string>
+    <string name="eidt_user_info_hint_weibo">例如：http://weibo.com/msbapp、@面试帮APP</string>
+    <string name="eidt_user_info_hint_blog">例如：http://blog.csdn.com/mianshibang</string>
+    <string name="eidt_user_info_hint_qq">例如：100000001</string>
+    
+    <!-- settings -->
+    <string name="setting_title">设置</string>
+    <string name="setting_font_size">字体大小</string>
+    <string name="setting_show_answer">默认显示答案</string>
+    <string name="setting_receive_push">接收推送消息</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_check_update">版本更新</string>
+    <string name="setting_about_app">关于面试帮</string>
+    <string name="setting_logout">退出当前帐号</string>
+    
+    <!-- logout dialog -->
+    <string name="logout_confirm_dialog_title">退出登录</string>
+    <string name="logout_confirm_dialog_message">确定退出当前帐号？</string>
+    
+    <!-- feedback -->
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_content_hint">请在这里填写您对面试帮的意见，我们将不断改进，感谢支持</string>
+    <string name="feedback_email_hint">邮箱选填，以便我们回复您</string>
+    
+    <!-- font size dialog -->
+    <string name="font_size_title">字体大小</string>
+    <string name="font_size_small">小</string>
+    <string name="font_size_medium">中</string>
+    <string name="font_size_large">大</string>
+    <string name="font_size_xlarge">特大</string>
+    
+    <!-- about -->
+    <string name="about_title">关于面试帮</string>
+    <string name="about_evaluation">给我评分</string>
+    <string name="about_feedback">意见反馈</string>
+    <string name="about_check_update">版本更新</string>
+    <string name="about_website">官网</string>
+    <string name="about_weibo">微博</string>
+    <string name="about_copyright">Cotyright © 2014 面试帮 All rights reserved.</string>
+    <string name="about_version">Version %1$s</string>
+    
+    <!-- web view -->
+    <string name="web_view_title">加载中&#8230;</string>
+    
+    <!-- dialog new version -->
+    <string name="download_hint">建议在Wifi环境更新下载</string>
+    <string name="download_progress">正在下载&#8230;(%1$d%%)</string>
+    
+    <!-- search -->
+    <string name="search_hint">请输入搜索内容</string>
+    <string name="search_result_empty">很抱歉，没有找到与“%1$s”相关的面试题\n请简化关键词后重试</string>
+    <string name="search_history_clear">清空</string>
+    <string name="search_history_label">最近搜索</string>
+    
+    <!-- browse history -->
+    <string name="browse_history_clear">确定清空浏览历史？</string>
+    
+    <!-- page view -->
+    <string name="page_view_emtpy">暂无数据</string>
+    <string name="page_view_network_error_hint">网络出错啦\n点击屏幕重试</string>
+    
+    <!-- share dialog -->
+    <string name="share_to_wechat">微信好友</string>
+    <string name="share_to_moments">朋友圈</string>
+    <string name="share_to_weibo">新浪微博</string>
+    <string name="share_to_qq">QQ</string>
+    <string name="share_cancel">取消分享</string>
+    
+    <!-- share -->
+    <string name="share_weibo">（分享自@%1$s 安卓客户端，下载链接：%2$s）</string>
+    <string name="share_qq_title">分享一道面试题(分享自@面试帮)</string>
+    <string name="share_wechat_title">分享一道面试题(分享自@面试帮)</string>
+    <string name="share_wechat_not_installed">您没有安装微信，请安装后重试</string>
+    <string name="share_wechat_not_support_api">您的微信版本太低，建议安装最新版微信</string>
+    <string name="share_weibo_not_installed">您没有安装新浪微博，请安装后重试</string>
+    <string name="share_weibo_not_support_api">您的新浪微博版本太低，建议安装最新版新浪微博</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failure">分享失败</string>
+    
+    <!-- post question -->
+    <string name="post_question_title">我上传的</string>
+    <string name="post_question_audit_success">审核通过</string>
+    <string name="post_question_audit_fail">审核不通过</string>
+    <string name="post_question_audit_waiting">等待审核</string>
+    <string name="post_question_view_cause">查看原因</string>
+    <string name="post_question_fail_cause">原因</string>
+    <string name="post_question_view_question">查看问题</string>
+    
+    <!-- empty text -->
+    <string name="favorite_folder_empty">还没有收藏夹\n创建一个收藏夹，收藏值得反复阅读的问题</string>
+    <string name="liked_list_empty">您赞过的问题会出现在这里</string>
+    <string name="post_list_empty">您还没有上传面试题喔</string>
+    <string name="browse_history_empty">您浏览过的问题会出现在这里</string>
+    
+    <!-- post -->
+    <string name="post_title">面试题上传</string>
+    <string name="post_classify">请选择问题分类</string>
+    <string name="post_from">请输入问题来源</string>
+    <string name="post_description">请输入问题描述</string>
+    <string name="post_answer">请输入参考答案</string>
+    <string name="post_tags">请输入问题标签，多个标签用逗号分隔</string>
+    <string name="post_submit">提交</string>
+    <string name="post_submiting">正在提交</string>
+    <string name="post_submit_success">提交成功</string>
+    
+    <!-- post web -->
+    <string name="post_web_hint">网页上传更方便，上传网址：</string>
+    <string name="post_web_url">http://mianshibang.duapp.com/post</string>
+    <string name="post_web_open">在浏览器打开</string>
+    <string name="post_web_copy">复制到剪贴板</string>
+
+</resources>

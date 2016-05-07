@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageButton
+        android:id="@+id/title_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_title_bar"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_title_bar_back" />
+
+    <ImageButton
+        android:id="@+id/title_bar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_title_bar"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_title_bar_search" />
+
+    <FrameLayout
+        android:id="@+id/title_bar_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp" >
+
+        <TextView
+            android:id="@+id/title_bar_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/title_bar_text"
+            android:textSize="@dimen/title_bar_text_size" />
+    </FrameLayout>
+
+</merge>

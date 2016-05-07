@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/search_bar_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/keyword"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search_view"
+            android:drawableLeft="@drawable/icon_search_bar"
+            android:drawablePadding="5dp"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#999999"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:text="@string/cancel"
+            android:textColor="@drawable/color_app_selector"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/line_gray_horizontal"
+        android:layout_height="1dp" />
+
+    <com.mianshibang.main.widget.PageView
+        android:id="@+id/page_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/list"
+            style="@style/listview_question" />
+    </com.mianshibang.main.widget.PageView>
+
+</LinearLayout>

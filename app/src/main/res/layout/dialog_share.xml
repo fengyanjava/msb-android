@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/share_dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1.4" />
+
+        <TextView
+            android:id="@+id/share_to_wechat"
+            style="@style/share_dialog_button"
+            android:drawableTop="@drawable/icon_share_wechat_selector"
+            android:text="@string/share_to_wechat" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/share_to_moments"
+            style="@style/share_dialog_button"
+            android:drawableTop="@drawable/icon_share_moments_selector"
+            android:text="@string/share_to_moments" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/share_to_weibo"
+            style="@style/share_dialog_button"
+            android:drawableTop="@drawable/icon_share_weibo_selector"
+            android:text="@string/share_to_weibo" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/share_to_qq"
+            style="@style/share_dialog_button"
+            android:drawableTop="@drawable/icon_share_qq_selector"
+            android:text="@string/share_to_qq" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1.4" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/share_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_white_item"
+        android:text="@string/share_cancel"
+        android:textColor="@color/share_dialog_text_color"
+        android:textSize="16sp" />
+
+</LinearLayout>

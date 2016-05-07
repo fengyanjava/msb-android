@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.mianshibang.main.widget.TitleBar
+        android:id="@+id/title_bar"
+        style="@style/TitleBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/edit_text"
+            style="@style/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/hint_text"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/edit_info_hint"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

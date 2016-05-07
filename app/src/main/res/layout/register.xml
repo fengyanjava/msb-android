@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/login_logo"
+            android:contentDescription="@null" />
+
+        <View style="@style/line_gray_horizontal" />
+
+        <LinearLayout style="@style/login_content" >
+
+            <EditText
+                android:id="@+id/nickname"
+                style="@style/login_input"
+                android:drawableLeft="@drawable/icon_login_user"
+                android:hint="@string/register_nickname_hint"
+                android:inputType="text" />
+
+            <View style="@style/line_gray_horizontal" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/login_input"
+                android:drawableLeft="@drawable/icon_register_email"
+                android:hint="@string/register_email_hint"
+                android:inputType="textEmailAddress" />
+
+            <View style="@style/line_gray_horizontal" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/password"
+                    style="@style/login_input"
+                    android:drawableLeft="@drawable/icon_login_lock"
+                    android:hint="@string/register_password_hint"
+                    android:inputType="textPassword"
+                    android:paddingRight="40dp" />
+
+                <ImageView
+                    android:id="@+id/view_password"
+                    style="@style/login_view_pwd"
+                    android:contentDescription="@null" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <View style="@style/line_gray_horizontal" />
+
+        <Button
+            android:id="@+id/register"
+            style="@style/login_button"
+            android:text="@string/register" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/go_login"
+            style="@style/login_button_bottom"
+            android:text="@string/register_have_account" />
+    </LinearLayout>
+
+</ScrollView>

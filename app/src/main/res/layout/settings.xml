@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:orientation="vertical" >
+
+    <com.mianshibang.main.widget.TitleBar
+        android:id="@+id/title_bar"
+        style="@style/TitleBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <RelativeLayout
+                    android:id="@+id/font_size"
+                    style="@style/common_item" >
+
+                    <TextView
+                        style="@style/common_item_text_only"
+                        android:layout_centerVertical="true"
+                        android:text="@string/setting_font_size" />
+
+                    <TextView
+                        android:id="@+id/font_size_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/settings_item_value"
+                        android:textSize="@dimen/settings_item_value_size" />
+                </RelativeLayout>
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <RelativeLayout
+                    style="@style/common_item"
+                    android:clickable="false" >
+
+                    <TextView
+                        style="@style/common_item_text_only"
+                        android:layout_centerVertical="true"
+                        android:text="@string/setting_show_answer" />
+
+                    <ToggleButton
+                        android:id="@+id/direct_show_answer"
+                        style="@style/toggle_button"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                
+                <View style="@style/line_gray_horizontal_item" />
+
+                <RelativeLayout
+                    style="@style/common_item"
+                    android:clickable="false" >
+
+                    <TextView
+                        style="@style/common_item_text_only"
+                        android:layout_centerVertical="true"
+                        android:text="@string/setting_receive_push" />
+
+                    <ToggleButton
+                        android:id="@+id/receive_push_toggle"
+                        style="@style/toggle_button"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    android:id="@+id/feedback"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/setting_feedback" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    android:id="@+id/check_update"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/setting_check_update" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    android:id="@+id/about_app"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/setting_about_app" />
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logout"
+                style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    style="@style/common_item_text"
+                    android:gravity="center"
+                    android:text="@string/setting_logout"
+                    android:textColor="#ff0000" />
+
+                <View style="@style/line_gray_horizontal_item" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_space" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

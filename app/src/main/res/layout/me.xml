@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_gray"
+    android:orientation="vertical" >
+
+    <com.mianshibang.main.widget.TitleBar
+        android:id="@+id/title_bar"
+        style="@style/TitleBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/me_profile"
+                    style="@style/common_item"
+                    android:layout_height="@dimen/me_item_height_profile"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/me_avatar_size"
+                        android:layout_height="@dimen/me_avatar_size"
+                        android:contentDescription="@null"
+                        android:src="@drawable/icon" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/nickname"
+                            style="@style/me_common_text"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/me_nickname_default" />
+
+                        <TextView
+                            android:id="@+id/score"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:textColor="@color/me_score_text_color"
+                            android:textSize="@dimen/me_score_text_size" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/icon_arrow" />
+                </LinearLayout>
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    android:id="@+id/me_liked"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/me_have_liked" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    android:id="@+id/me_posted"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/me_post_list" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/me_have_download"
+                    android:visibility="gone" />
+
+                <View
+                    style="@style/line_gray_horizontal_item"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/me_history"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/me_browse_history" />
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/me_group"
+                android:visibility="gone" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/app_name" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/app_name" />
+
+                <View style="@style/line_gray_horizontal_item" />
+
+                <TextView
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/app_name" />
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+            
+            <LinearLayout
+                style="@style/me_group" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    android:id="@+id/me_post"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/me_post" />
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/me_group"
+                android:layout_marginBottom="@dimen/category_item_space" >
+
+                <View style="@style/line_gray_horizontal" />
+
+                <TextView
+                    android:id="@+id/me_settings"
+                    style="@style/common_item_text_with_arrow"
+                    android:text="@string/setting" />
+
+                <View style="@style/line_gray_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

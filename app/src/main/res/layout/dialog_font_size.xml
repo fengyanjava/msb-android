@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/font_size_small"
+        style="@style/common_item_text"
+        android:text="@string/font_size_small" />
+
+    <View style="@style/line_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/font_size_medium"
+        style="@style/common_item_text"
+        android:text="@string/font_size_medium" />
+
+    <View style="@style/line_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/font_size_large"
+        style="@style/common_item_text"
+        android:text="@string/font_size_large" />
+
+    <View style="@style/line_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/font_size_xlarge"
+        style="@style/common_item_text"
+        android:text="@string/font_size_xlarge" />
+
+</LinearLayout>

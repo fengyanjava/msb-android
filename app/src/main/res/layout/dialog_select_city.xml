@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res/com.mianshibang.main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <antistatic.spinnerwheel.WheelVerticalView
+        android:id="@+id/province"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        wheel:selectionDivider="@drawable/wheel_divider"
+        wheel:selectionDividerHeight="2dp"
+        wheel:visibleItems="3" />
+
+    <antistatic.spinnerwheel.WheelVerticalView
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        wheel:selectionDivider="@drawable/wheel_divider"
+        wheel:selectionDividerHeight="2dp"
+        wheel:visibleItems="3" />
+
+</LinearLayout>

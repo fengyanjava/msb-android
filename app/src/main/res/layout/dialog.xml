@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_height"
+        android:background="@color/dialog_title_bg"
+        android:gravity="center"
+        android:textColor="@color/dialog_title_text_color"
+        android:textSize="@dimen/dialog_title_text_size" />
+
+    <FrameLayout
+        android:id="@+id/dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_separator_line"
+            android:background="@color/dialog_separator_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_title_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialog_negative"
+                style="@style/dialog_button"
+                android:text="@string/cancel" />
+
+            <View
+                android:layout_width="@dimen/dialog_separator_line"
+                android:layout_height="match_parent"
+                android:background="@color/dialog_separator_line" />
+
+            <Button
+                android:id="@+id/dialog_positive"
+                style="@style/dialog_button"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_separator_line"
+            android:background="@color/dialog_separator_line" />
+
+        <Button
+            android:id="@+id/dialog_single"
+            style="@style/dialog_button"
+            android:layout_width="match_parent"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

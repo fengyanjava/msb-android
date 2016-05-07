@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="@string/search_history_label"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/clear_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_history_clear"
+        android:text="@string/search_history_clear"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</merge>

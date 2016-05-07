@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_white_item"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/checkbox_selector"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View style="@style/line_gray_horizontal" />
+
+</merge>

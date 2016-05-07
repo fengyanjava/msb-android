@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/tab_left"
+        style="@style/button"
+        android:background="@drawable/btn_title_tab_left"
+        android:gravity="center"
+        android:textColor="@drawable/color_title_bar_tab_text"
+        android:textSize="@dimen/title_bar_tab_text" />
+
+    <Button
+        android:id="@+id/tab_right"
+        style="@style/button"
+        android:background="@drawable/btn_title_tab_right"
+        android:gravity="center"
+        android:textColor="@drawable/color_title_bar_tab_text"
+        android:textSize="@dimen/title_bar_tab_text" />
+
+</merge>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/post_detail_action_bar_height"
+    android:background="@drawable/bg_detail_bar"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/post_state_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/icon_post_detail_action_bar_audit"
+        android:drawablePadding="@dimen/post_action_bar_drawable_padding"
+        android:gravity="center_vertical"
+        android:text="@string/post_question_audit_success"
+        android:textColor="@color/post_action_bar_text_color"
+        android:textSize="@dimen/post_detail_action_bar_text_size" />
+
+    <View
+        android:id="@+id/post_line"
+        style="@style/line_gray_vertical"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/post_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_item_action_bar"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/post_question_view_question"
+        android:textColor="@color/post_action_bar_text_color"
+        android:textSize="@dimen/post_detail_action_bar_text_size" />
+
+</LinearLayout>

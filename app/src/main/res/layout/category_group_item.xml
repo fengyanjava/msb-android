@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/classify_icon"
+        style="@style/category_group_item_icon"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_category_default" />
+
+    <TextView
+        android:id="@+id/classify_name"
+        style="@style/category_group_item_text"
+        android:text="@string/app_name" />
+
+</merge>

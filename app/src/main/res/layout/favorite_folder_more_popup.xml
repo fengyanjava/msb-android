@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_favorite_folder_more2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/favorite_folder_edit"
+        style="@style/favorite_folder_more_text"
+        android:drawableLeft="@drawable/icon_favorite_folder_edit"
+        android:text="@string/edit_favorite_folder" />
+
+    <ImageView
+        style="@style/line_gray_horizontal"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/favorite_folder_delete"
+        style="@style/favorite_folder_more_text"
+        android:drawableLeft="@drawable/icon_favorite_folder_delete"
+        android:text="@string/delete_favorite_folder" />
+
+</LinearLayout>
